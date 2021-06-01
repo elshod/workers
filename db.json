@@ -1,0 +1,36 @@
+{
+  "workers": [
+    {
+      "lang": [
+        "Python",
+        "PHP"
+      ],
+      "name": "Ozoda",
+      "age": "22",
+      "gender": "Ayol",
+      "depart": "Veb ilovalar bo`limi",
+      "id": 2
+    },
+    {
+      "lang": [
+        "JavaScript"
+      ],
+      "name": "Aziza",
+      "age": "26",
+      "gender": "Ayol",
+      "depart": "Qo`llab-quvvatlash bo`limi",
+      "id": 7
+    },
+    {
+      "lang": [
+        "JavaScript",
+        "PHP"
+      ],
+      "name": "Hurshid",
+      "age": "27",
+      "gender": "Erkak",
+      "depart": "Menejment bo`limi",
+      "id": 8
+    }
+  ]
+}
