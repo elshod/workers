@@ -20,6 +20,11 @@ const routes = [
     name: 'Tasks',
     component: () => import(/* webpackChunkName: "about" */ '../views/Tasks.vue')
   },
+  {
+    path: '/quiz',
+    name: 'Quiz',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Quiz.vue')
+  },
 ]
 
 const router = new VueRouter({
