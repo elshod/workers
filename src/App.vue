@@ -9,6 +9,7 @@
         <b-navbar-nav>
           <b-nav-item to="/">Home</b-nav-item>
           <b-nav-item to="/workers">Workers</b-nav-item>
+          <b-nav-item to="/tasks">Tasks</b-nav-item>
         </b-navbar-nav>
 
       </b-collapse>
@@ -22,9 +23,12 @@
 export default {
   created(){
     this.$store.dispatch('getAllWorkers')
+    this.$store.dispatch('getAllTasks')
   }
 }
 </script>
 <style>
-
+.text-right {
+        text-align: right;
+    }
 </style>

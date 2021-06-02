@@ -2,35 +2,25 @@
   "workers": [
     {
       "lang": [
-        "Python",
-        "PHP"
-      ],
-      "name": "Ozoda",
-      "age": "22",
-      "gender": "Ayol",
-      "depart": "Veb ilovalar bo`limi",
-      "id": 2
-    },
-    {
-      "lang": [
+        "PHP",
         "JavaScript"
       ],
-      "name": "Aziza",
-      "age": "26",
-      "gender": "Ayol",
-      "depart": "Qo`llab-quvvatlash bo`limi",
-      "id": 7
-    },
-    {
-      "lang": [
-        "JavaScript",
-        "PHP"
-      ],
-      "name": "Hurshid",
-      "age": "27",
+      "name": "Tohirov Farhod",
+      "age": "24",
+      "url": "https://i.pinimg.com/564x/66/f0/fd/66f0fd158bf5ce51ccd4a9027eacf1cb.jpg",
       "gender": "Erkak",
-      "depart": "Menejment bo`limi",
-      "id": 8
+      "depart": "Veb ilovalar bo`limi",
+      "id": 1
+    }
+  ],
+  "tasks": [
+    {
+      "status": 0,
+      "title": "Vuejs takrorlash",
+      "deadline": "2021-06-17",
+      "text": "<p><a href=\"https://www.youtube.com/watch?v=qZXt1Aom3Cs\" rel=\"noopener noreferrer\" target=\"_blank\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </a>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p><p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>",
+      "person": 1,
+      "id": 1
     }
   ]
 }

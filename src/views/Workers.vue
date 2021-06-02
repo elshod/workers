@@ -6,7 +6,6 @@
             </b-col>
             <b-col class="text-right">
                 <b-button v-b-modal.newWorker>Yangi xodim</b-button>
-
             </b-col>
         </b-row>
         <hr>
@@ -23,6 +22,7 @@
         <b-modal id="newWorker" title="Yangi xodimni ro`yhatdan o`tkazish" hide-footer>
             <b-form-input v-model="person.name" class="mb-3" placeholder="Ismini kiriting"></b-form-input>
             <b-form-input v-model="person.age" class="mb-3" placeholder="Yoshini"></b-form-input>
+            <b-form-input v-model="person.url" class="mb-3" placeholder="Rasm url"></b-form-input>
             <b-form-group class="mb-3" label="Jinsini tanlang">
                 <b-form-radio v-model="person.gender"  name="gender" value="Erkak">Erkak</b-form-radio>
                 <b-form-radio v-model="person.gender"  name="gender" value="Ayol">Ayol</b-form-radio>
@@ -100,7 +100,5 @@ export default {
 </script>
 
 <style>
-    .text-right {
-        text-align: right;
-    }
+    
 </style>
